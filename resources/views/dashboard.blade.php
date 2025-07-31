@@ -15,7 +15,7 @@
                         <p class="mt-4 font-semibold text-lg">Welcome, Admin!</p>
                         <a href="{{ route('admin.dashboard') }}" class="text-blue-600 underline">
                             Go to Admin Dashboard
-                        </a>
+                        </a> 
                     @else
                         <p class="mt-4">Welcome, valued user!</p>
                     @endif
